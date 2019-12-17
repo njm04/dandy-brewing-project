@@ -36,3 +36,219 @@
     transform: rotate(360deg);
   }
 }
+
+footer {
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+footer .fab {
+  font-size: 30px;
+}
+
+article .home {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 70%;
+}
+
+#home {
+  padding: 100px;
+}
+
+article .home p {
+  font-size: 25px;
+}
+
+.beers-cover-image {
+  background-image: url('./assets/images/Bottles.jpg');
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.seasonal-beers-cover-image {
+  background-image: url('./assets/images/Grisette.jpg');
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.dandy-line-up, .tasting-room, .program, .story, .contact-us, .dandy-store {
+  color: white;
+  padding: 200px;
+  font-size: larger;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.caption h3, .caption p {
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.nav {
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.tasting-room-cover-image {
+  background-image: url('./assets/images/Caviar Martini Champagne Rose.jpg');
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.what-we-do, .restaurant {
+  padding: 100px;
+  font-size: larger;
+}
+
+.shop {
+  padding: 100px;
+  font-size: larger;
+  width: 50%;
+}
+
+/* .restaurant {
+  border-right: 5px solid black;
+}
+
+.what-we-do {
+  border-left: 5px solid blue;
+} */
+
+.restaurant h3, .what-we-do h3, .current h3, .past h3, .program-content h3, .shop h3 {
+  padding-bottom: 30px;
+}
+
+.restaurant-content, .hours, .current-artist, .past-artist, .story-content, .shop .shop-card, .on-tap-list {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dandy-beers .dandy-list {
+  opacity: 0.7;
+  width: 50%;
+  padding: 100px;
+}
+
+.store-list {
+  opacity: 0.7;
+  width: 50%;
+  padding: 30px;
+}
+
+.dandy-beers .seasonal-dandy-list {
+  opacity: 0.7;
+  width: 50%;
+  padding: 100px;
+}
+
+/* .dandy-stores {
+  opacity: 0.7;
+  width: 50%;
+  padding: 100px;
+} */
+
+.more-information-cover-image {
+  background-image: url('./assets/images/Beef Cheek Ragu.jpg');
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.artists-cover-image {
+  background-image: url('./assets/images/Bottles.jpg');
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.program-content, .current, .past {
+  padding: 100px;
+  font-size: larger;
+}
+
+.story-cover-image {
+  background-image: url('./assets/images/Kegs.jpg');
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.story-content {
+  padding: 50px;
+  font-size: larger;
+}
+
+.the-story h3 {
+  padding: 30px;
+}
+
+.the-story {
+  width: 50%;
+  padding: 30px;
+}
+
+.contact-cover-image {
+  background-image: url('./assets/images/DSC_0385.jpg');
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.stores-cover-image {
+  background-image: url('./assets/images/Kegs.jpg');
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.stores h3 {
+  padding-top: 30px;
+}
+
+.dandy-store p a {
+  text-decoration: none;
+}
